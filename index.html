@@ -57,7 +57,7 @@
                let maxAllowed = [];
 
                const listOfData = response.data;
-               console.log("Data Coming from API :" + JSON.stringify(listOfData));
+               // console.log("Data Coming from API :" + JSON.stringify(listOfData));
                const limit = listOfData.slice(0,200);
                
                limit.forEach(element => {
@@ -73,9 +73,9 @@
                });
 
       
-               console.log(townList)
-               console.log(availablLicense)
-               console.log(maxAllowed)
+               // console.log(townList)
+               // console.log(availablLicense)
+               // console.log(maxAllowed)
                setChart(townList, availablLicense, maxAllowed)
             })
 
