@@ -1,7 +1,7 @@
 {
-  "name": "covid-19-report",
+  "name": "ct-piquor-permit-availability",
   "version": "1.0.0",
-  "description": "covid-19 report",
+  "description": "CT Liquor Permit Availability",
   "main": "dist",
   "dependencies": {
     "gh-pages": "^2.2.0"
