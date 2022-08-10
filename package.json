@@ -1,0 +1,23 @@
+{
+  "name": "covid-19-report",
+  "version": "1.0.0",
+  "description": "covid-19 report",
+  "main": "dist",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmayur73/covid-19-chart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmayur73/covid-19-chart/issues"
+  },
+  "homepage": "https://pmayur73.github.io/covid-19-chart"
+}
